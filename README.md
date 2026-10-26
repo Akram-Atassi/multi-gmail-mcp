@@ -29,6 +29,18 @@ A [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server that le
 
 ## Installation
 
+### Quick setup from this fork
+
+After the one-time [Google Cloud Setup](#google-cloud-setup) below, run from a clone of this repo:
+
+```bash
+./scripts/setup.sh personal@gmail.com:personal work@company.com:work
+```
+
+It installs dependencies, signs in each account (opens your browser), and registers the server in Claude Desktop's config. Then restart Claude Desktop.
+
+### From npm (upstream package)
+
 ```bash
 npm install -g multi-gmail-mcp
 ```
